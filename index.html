@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+ <html>
+    <head>
+        <title>Exercices JS</title>
+       	<link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+		<header>
+			<h1 onclick="globalFunc.startGame()"><span id="titre1">Catch me if you can !</span><span id="titre2">Start Game !</span></h1>	
+		</header>
+		
+		<div id="main">
+			<div id="canvas">
+				<div id="spinner">catch me</div>
+			</div>
+			<div id="bandeau">
+				<div class="affichage">
+					<h2>Score :</h2>
+					<p class="valeur" id="score">0</p>
+				</div>
+				<div class="affichage">
+					<h2>Points to Next Level :</h2>
+					<p class="valeur"  id="nextLevel">10</p>
+				</div>
+				<div class="affichage">
+					<h2>Level :</h2>
+					<p class="valeur" id="level">1</p>
+				</div>
+				<div class="affichage">
+					<h2>Miss Click :</h2>
+					<p class="valeur" id="missClick">0</p>
+				</div>
+				<div class="affichage">
+					<h2>Timer :</h2>
+					<p class="valeur" id="timer">60</p>
+				</div>
+				<div class="affichage" id="highscore">
+					<h2>High Scores :</h2>
+					<ul class="valhighscore">
+						<li>512 - Meir Sabbah</li>
+						<li>495 - Jeremy Uzan</li>
+						<li>417 - Julia Fima</li>
+						<li>378 - Elie Cohen</li>
+					</ul>
+				</div>
+			</div>
+		
+		</div>
+		
+		 <script src="main.js"></script>
+    </body>
+</html>	

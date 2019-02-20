@@ -1,0 +1,110 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+header {
+	background-color: #f2f262;
+	border-top:7px solid #000;
+	border-bottom:7px solid #000;
+	padding: 20px;
+	margin: 30px auto;
+}
+
+header h1 {
+	font-family:arial, sans-serif;
+	font-size:60px;
+	text-transform: uppercase;
+	color:darkviolet;
+	text-shadow: 3px 3px #7a8ec4;
+	text-align: center;
+}
+
+#bandeau {
+	background-color: rgba(121, 239, 244, 0.48);
+	margin: 0px 20px 20px 20px;
+	padding-top:30px;
+	width:500px;
+	float:left;
+}
+
+.affichage {
+	margin:10px auto;
+	width:80%;
+	height: 100px;
+	background-color:white;
+	padding:20px;
+	overflow: hidden;
+}
+
+.affichage:last-child  {
+	height: 150px;
+}
+
+.affichage h2{
+	font: 30px arial ;
+}
+
+#canvas {
+	width:1650px;
+	height:1000px;
+	border:2px solid #000;
+	margin: 0 20px 20px 20px;
+	background-color:#000;
+	float:left;
+}
+
+#spinner {
+	width:150px;
+	height:40px;
+	top:0;
+	left:0;
+	border:2px solid #000;
+	font-size:20px;
+	font-weight: bold;
+	background-color:cyan;
+	position: relative;
+	text-align: center;
+	padding-top:20px;
+	animation: spin 0s infinite linear;
+}
+
+#titre1 {
+	display: block;
+}
+
+#titre2 {
+	display: none;
+}
+
+h1:hover #titre1 {
+	display: none;
+}
+
+h1:hover #titre2 {
+	display: block;	
+}
+
+@keyframes spin {
+    0%  {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}   
+}
+
+.valeur {
+	font: bold 35px arial;
+	color:#1515d6;
+	text-shadow: 1.5px 1.5px #7a8ec4;
+	margin-top:20px;
+}
+
+.valhighscore {
+	font: bold 25px arial;
+	color:#1515d6;
+	text-shadow: 1.5px 1.5px #7a8ec4;
+	margin-top:20px;
+}
+
+li {
+    list-style:none;
+}
+
