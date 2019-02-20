@@ -22,6 +22,7 @@ var globalFunc = {
 		globalVar.divSpin.addEventListener("click",globalFunc.clicReussi);
 		globalVar.divCanvas.addEventListener("click",globalFunc.clicPerdu);
 		globalVar.divSpin.addEventListener("mouseover",globalFunc.moveSpinner);
+	
 		
         //on lance le chronometre
         var repeatChrono = setInterval(function () {
